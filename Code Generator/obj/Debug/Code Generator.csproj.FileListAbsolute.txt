@@ -1,0 +1,7 @@
+D:\Gta 5 modding\Code Generator\Code Generator\bin\Debug\Code Generator.exe.config
+D:\Gta 5 modding\Code Generator\Code Generator\bin\Debug\Code Generator.exe
+D:\Gta 5 modding\Code Generator\Code Generator\bin\Debug\Code Generator.pdb
+D:\Gta 5 modding\Code Generator\Code Generator\obj\Debug\Code Generator.csproj.AssemblyReference.cache
+D:\Gta 5 modding\Code Generator\Code Generator\obj\Debug\Code Generator.csproj.CoreCompileInputs.cache
+D:\Gta 5 modding\Code Generator\Code Generator\obj\Debug\Code Generator.exe
+D:\Gta 5 modding\Code Generator\Code Generator\obj\Debug\Code Generator.pdb
