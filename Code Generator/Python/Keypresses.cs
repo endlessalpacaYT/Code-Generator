@@ -110,6 +110,39 @@ namespace Code_Generator.Python
             CloseParenthesis();
         }
 
+        public static void PrintProgramIsWorking()
+        {
+            keybd_event(VK_P, 0, KEYEVENTF_EXTENDEDKEY, (UIntPtr)0);
+            Thread.Sleep(100);
+            keybd_event(VK_P, 0, KEYEVENTF_KEYUP, (UIntPtr)0);
+            Thread.Sleep(200);
+            keybd_event(VK_R, 0, KEYEVENTF_EXTENDEDKEY, (UIntPtr)0);
+            Thread.Sleep(100);
+            keybd_event(VK_R, 0, KEYEVENTF_KEYUP, (UIntPtr)0);
+            Thread.Sleep(100);
+            keybd_event(VK_I, 0, KEYEVENTF_EXTENDEDKEY, (UIntPtr)0);
+            Thread.Sleep(100);
+            keybd_event(VK_I, 0, KEYEVENTF_KEYUP, (UIntPtr)0);
+            Thread.Sleep(100);
+            keybd_event(VK_N, 0, KEYEVENTF_EXTENDEDKEY, (UIntPtr)0);
+            Thread.Sleep(100);
+            keybd_event(VK_N, 0, KEYEVENTF_KEYUP, (UIntPtr)0);
+            Thread.Sleep(100);
+            keybd_event(VK_T, 0, KEYEVENTF_EXTENDEDKEY, (UIntPtr)0);
+            Thread.Sleep(100);
+            keybd_event(VK_T, 0, KEYEVENTF_KEYUP, (UIntPtr)0);
+            Thread.Sleep(100);
+            OpenParenthesis();
+            Thread.Sleep(100);
+            DoubleQuote();
+            Thread.Sleep(100);
+            ProgramIsWorking();
+            Thread.Sleep(100);
+            DoubleQuote();
+            Thread.Sleep(100);
+            CloseParenthesis();
+        }
+
         public static void HelloWorld()
         {
             keybd_event(VK_SHIFT, 0, KEYEVENTF_EXTENDEDKEY, (UIntPtr)0);
@@ -159,6 +192,97 @@ namespace Code_Generator.Python
             keybd_event(VK_D, 0, KEYEVENTF_EXTENDEDKEY, (UIntPtr)0);
             Thread.Sleep(100);
             keybd_event(VK_D, 0, KEYEVENTF_KEYUP, (UIntPtr)0);
+        }
+
+        public static void ProgramIsWorking()
+        {
+            keybd_event(VK_P, 0, KEYEVENTF_EXTENDEDKEY, (UIntPtr)0);
+            Thread.Sleep(100);
+            keybd_event(VK_P, 0, KEYEVENTF_KEYUP, (UIntPtr)0);
+            Thread.Sleep(100);
+            keybd_event(VK_R, 0, KEYEVENTF_EXTENDEDKEY, (UIntPtr)0);
+            Thread.Sleep(100);
+            keybd_event(VK_R, 0, KEYEVENTF_KEYUP, (UIntPtr)0);
+            Thread.Sleep(100);
+            keybd_event(VK_O, 0, KEYEVENTF_EXTENDEDKEY, (UIntPtr)0);
+            Thread.Sleep(100);
+            keybd_event(VK_O, 0, KEYEVENTF_KEYUP, (UIntPtr)0);
+            Thread.Sleep(100);
+            keybd_event(VK_G, 0, KEYEVENTF_EXTENDEDKEY, (UIntPtr)0);
+            Thread.Sleep(100);
+            keybd_event(VK_G, 0, KEYEVENTF_KEYUP, (UIntPtr)0);
+            Thread.Sleep(100);
+            keybd_event(VK_R, 0, KEYEVENTF_EXTENDEDKEY, (UIntPtr)0);
+            Thread.Sleep(100);
+            keybd_event(VK_R, 0, KEYEVENTF_KEYUP, (UIntPtr)0);
+            Thread.Sleep(100);
+            keybd_event(VK_A, 0, KEYEVENTF_EXTENDEDKEY, (UIntPtr)0);
+            Thread.Sleep(100);
+            keybd_event(VK_A, 0, KEYEVENTF_KEYUP, (UIntPtr)0);
+            Thread.Sleep(100);
+            keybd_event(VK_M, 0, KEYEVENTF_EXTENDEDKEY, (UIntPtr)0);
+            Thread.Sleep(100);
+            keybd_event(VK_M, 0, KEYEVENTF_KEYUP, (UIntPtr)0);
+            Thread.Sleep(100);
+
+            // Type space
+            keybd_event(VK_SPACE, 0, KEYEVENTF_EXTENDEDKEY, (UIntPtr)0);
+            Thread.Sleep(100);
+            keybd_event(VK_SPACE, 0, KEYEVENTF_KEYUP, (UIntPtr)0);
+            Thread.Sleep(100);
+
+            // Type Is
+            keybd_event(VK_SHIFT, 0, KEYEVENTF_EXTENDEDKEY, (UIntPtr)0);
+            Thread.Sleep(100);
+            keybd_event(VK_I, 0, KEYEVENTF_EXTENDEDKEY, (UIntPtr)0);
+            Thread.Sleep(100);
+            keybd_event(VK_I, 0, KEYEVENTF_KEYUP, (UIntPtr)0);
+            Thread.Sleep(100);
+            ReleaseShiftKeys();
+            Thread.Sleep(100);
+            keybd_event(VK_S, 0, KEYEVENTF_EXTENDEDKEY, (UIntPtr)0);
+            Thread.Sleep(100);
+            keybd_event(VK_S, 0, KEYEVENTF_KEYUP, (UIntPtr)0);
+            Thread.Sleep(100);
+
+            // Type space
+            keybd_event(VK_SPACE, 0, KEYEVENTF_EXTENDEDKEY, (UIntPtr)0);
+            Thread.Sleep(100);
+            keybd_event(VK_SPACE, 0, KEYEVENTF_KEYUP, (UIntPtr)0);
+            Thread.Sleep(100);
+
+            // Type Working
+            keybd_event(VK_SHIFT, 0, KEYEVENTF_EXTENDEDKEY, (UIntPtr)0);
+            Thread.Sleep(100);
+            keybd_event(VK_W, 0, KEYEVENTF_EXTENDEDKEY, (UIntPtr)0);
+            Thread.Sleep(100);
+            keybd_event(VK_W, 0, KEYEVENTF_KEYUP, (UIntPtr)0);
+            Thread.Sleep(100);
+            ReleaseShiftKeys();
+            Thread.Sleep(100);
+            keybd_event(VK_O, 0, KEYEVENTF_EXTENDEDKEY, (UIntPtr)0);
+            Thread.Sleep(100);
+            keybd_event(VK_O, 0, KEYEVENTF_KEYUP, (UIntPtr)0);
+            Thread.Sleep(100);
+            keybd_event(VK_R, 0, KEYEVENTF_EXTENDEDKEY, (UIntPtr)0);
+            Thread.Sleep(100);
+            keybd_event(VK_R, 0, KEYEVENTF_KEYUP, (UIntPtr)0);
+            Thread.Sleep(100);
+            keybd_event(VK_K, 0, KEYEVENTF_EXTENDEDKEY, (UIntPtr)0);
+            Thread.Sleep(100);
+            keybd_event(VK_K, 0, KEYEVENTF_KEYUP, (UIntPtr)0);
+            Thread.Sleep(100);
+            keybd_event(VK_I, 0, KEYEVENTF_EXTENDEDKEY, (UIntPtr)0);
+            Thread.Sleep(100);
+            keybd_event(VK_I, 0, KEYEVENTF_KEYUP, (UIntPtr)0);
+            Thread.Sleep(100);
+            keybd_event(VK_N, 0, KEYEVENTF_EXTENDEDKEY, (UIntPtr)0);
+            Thread.Sleep(100);
+            keybd_event(VK_N, 0, KEYEVENTF_KEYUP, (UIntPtr)0);
+            Thread.Sleep(100);
+            keybd_event(VK_G, 0, KEYEVENTF_EXTENDEDKEY, (UIntPtr)0);
+            Thread.Sleep(100);
+            keybd_event(VK_G, 0, KEYEVENTF_KEYUP, (UIntPtr)0);
         }
 
         public static void OpenParenthesis()

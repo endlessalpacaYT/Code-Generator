@@ -47,13 +47,14 @@ namespace Code_Generator.Python
         public static void GenerateCode()
         {
             string[] codeSnippets = {
-                "PrintHelloWorld"
+            "PrintHelloWorld",
+            "PrintProgramIsWorking",
             };
             Random random = new Random();
-            int index = random.Next(codeSnippets.Length);
 
             while (true)
             {
+                int index = random.Next(codeSnippets.Length); 
                 string randomSnippet = codeSnippets[index];
                 Console.WriteLine("Generating Code Snippet: " + randomSnippet);
                 Thread.Sleep(500);
@@ -61,6 +62,10 @@ namespace Code_Generator.Python
                 {
                     case "PrintHelloWorld":
                         Keypresses.PrintHelloWorld();
+                        PressEnter();
+                        break;
+                    case "PrintProgramIsWorking":
+                        Keypresses.PrintProgramIsWorking();
                         PressEnter();
                         break;
                 }
